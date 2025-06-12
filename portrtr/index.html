@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhiram Sanka - Full-Stack Developer Portfolio</title>
+    <meta name="description" content="Abhiram Sanka - Full-Stack Developer & Software Engineer Portfolio">
+    <meta name="keywords" content="Abhiram Sanka, Full-Stack Developer, Software Engineer, React, Node.js, Portfolio">
+    <meta name="author" content="Abhiram Sanka">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Abhiram Sanka - Full-Stack Developer Portfolio">
+    <meta property="og:description" content="Passionate full-stack developer creating innovative web solutions with modern technologies.">
+    <meta property="og:type" content="website">
+    
+    <!-- Preconnect to external domains -->
+    <link rel="preconnect" href="https://images.pexels.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h1>Abhiram Sanka</h1>
+            </div>
+            
+            <!-- Desktop Navigation -->
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link active" data-section="home">
+                    <i class="fas fa-home"></i>
+                    <span>Home</span>
+                </a>
+                <a href="#about" class="nav-link" data-section="about">
+                    <i class="fas fa-user"></i>
+                    <span>About</span>
+                </a>
+                <a href="#projects" class="nav-link" data-section="projects">
+                    <i class="fas fa-code"></i>
+                    <span>Projects</span>
+                </a>
+                <!--<a href="#skills" class="nav-link" data-section="skills">
+                    <i class="fas fa-award"></i>
+                    <span>Skills</span>
+                </a>-->
+                <a href="#experience" class="nav-link" data-section="experience">
+                    <i class="fas fa-briefcase"></i>
+                    <span>Internships</span>
+                </a>
+                <a href="#contact" class="nav-link" data-section="contact">
+                    <i class="fas fa-phone"></i>
+                    <span>Contact</span>
+                </a>
+            </div>
+
+            <!-- Mobile menu button -->
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="hero-shape hero-shape-1"></div>
+            <div class="hero-shape hero-shape-2"></div>
+        </div>
+        
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">Abhiram Sanka</h1>
+                <h2 class="hero-subtitle">Full-Stack Developer & Software Engineer</h2>
+                <p class="hero-description">
+                    Passionate about creating innovative web solutions and bringing ideas to life through clean, efficient code.
+                </p>
+                
+            </div>
+            
+            
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <!-- About Section -->
+<section id="about" class="about">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">About Me</h2>
+            <div class="section-divider"></div>
+        </div>
+        
+        <div class="about-content">
+            <div class="about-text">
+                <p>
+                    I'm Abhiram Sanka, a highly motivated full-stack developer currently pursuing my B.Tech in Cloud Edge Computing at KL University, with a CGPA of 8.66. I specialize in building scalable, modern web applications using technologies like React, Node.js, and Spring Boot.
+                </p>
+                <p>
+                    I've completed hands-on internships in Networking and AI/ML domains, where I optimized network security and automated workflows using intelligent data analysis. I’m certified by AWS, Oracle Cloud Infrastructure, and Aviatrix, and I actively lead technical initiatives as the Team Lead of the Intel Innovation Club.
+                </p>
+                <div class="about-tags">
+                    <span class="tag">Cloud Computing</span>
+                    <span class="tag">Full-Stack Development</span>
+                    <span class="tag">Automation Testing</span>
+                    <span class="tag">AWS</span>
+                    <span class="tag">React & Spring Boot</span>
+                </div>
+            </div>
+            
+           <div class="about-stats">
+                <div class="stat-card">
+                    <div class="stat-number">5</div>
+                    <div class="stat-label">Projects</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">3</div>
+                    <div class="stat-label">Cloud Certifications</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">2</div>
+                    <div class="stat-label">Tech Internships</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">1</div>
+                    <div class="stat-label">Leadership Role</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Projects Section -->
+    <!-- Projects Section -->
+<section id="projects" class="projects">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Projects</h2>
+            <div class="section-divider"></div>
+            <p class="section-description">
+                Some of the practical projects I've developed to apply my skills in cloud, full-stack development, and automation.
+            </p>
+        </div>
+        
+        <div class="projects-grid">
+            <!-- Handloom E-Commerce -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://images.pexels.com/photos/6347728/pexels-photo-6347728.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Handloom E-Commerce">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="https://github.com/Abhiram19052005/handloom-e-commerce-website-project" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Handloom E-Commerce Website</h3>
+                    <p class="project-description">
+                        Full-stack handloom marketplace using Spring Boot, React.js, MySQL, and JWT for secure authentication and payment integration.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Spring Boot</span>
+                        <span class="tech-tag">React.js</span>
+                        <span class="tech-tag">MySQL</span>
+                        <span class="tech-tag">JWT</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cloud File Sharing App -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://images.pexels.com/photos/5082579/pexels-photo-5082579.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Cloud File Sharing">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="https://main.dze7m1bdgy137.amplifyapp.com/" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Cloud File Sharing App</h3>
+                    <p class="project-description">
+                        Serverless file-sharing platform with AWS Lambda, API Gateway, DynamoDB, and S3. Integrated user authentication with Cognito.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">React.js</span>
+                        <span class="tech-tag">AWS Lambda</span>
+                        <span class="tech-tag">S3</span>
+                        <span class="tech-tag">DynamoDB</span>
+                        <span class="tech-tag">Cognito</span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="project-card">
+    <div class="project-image">
+    <div class="short-url-logo">
+    <img src="urls.jpg" alt="Short URL Logo" width="200">
+</div>
+
+        <div class="project-overlay">
+            <div class="project-links">
+                <a href="https://github.com/Abhiram19052005/URL_SHORTER_AWS" target="_blank" class="project-link">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://url-shorterner.netlify.app/" target="_blank" class="project-link">
+                    <i class="fas fa-external-link-alt"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="project-content">
+        <h3 class="project-title">Serverless URL Shortener</h3>
+        <p class="project-description">
+            A fully serverless URL shortener using AWS Lambda, API Gateway, and DynamoDB. Supports URL shortening, redirection, and a clean frontend UI with copy-to-clipboard and CORS support.
+        </p>
+        <div class="project-tech">
+            <span class="tech-tag">AWS Lambda</span>
+            <span class="tech-tag">API Gateway</span>
+            <span class="tech-tag">DynamoDB</span>
+            <span class="tech-tag">HTML</span>
+            <span class="tech-tag">JavaScript</span>
+        </div>
+    </div>
+</div>
+
+
+            <!-- Online Auction Platform -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://images.pexels.com/photos/6077326/pexels-photo-6077326.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Auction Platform">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <!--<a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>-->
+                        </div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Online Auction Platform</h3>
+                    <p class="project-description">
+                        Built a MERN stack auction platform with real-time bidding, MySQL integration, and live video stream for active auctions.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">MongoDB</span>
+                        <span class="tech-tag">Express.js</span>
+                        <span class="tech-tag">React.js</span>
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">MySQL</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Amazon Test Automation -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg?auto=compress&cs=tinysrgb&w=800
+" alt="Amazon Automation">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="https://github.com/Abhiram19052005/AmazonCucumberProject" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Amazon Automated Testing</h3>
+                    <p class="project-description">
+                        Automated Amazon workflows (login, cart, checkout) using Selenium WebDriver, Cucumber, JUnit, and Maven with full BDD support.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Java</span>
+                        <span class="tech-tag">Selenium</span>
+                        <span class="tech-tag">Cucumber</span>
+                        <span class="tech-tag">JUnit</span>
+                        <span class="tech-tag">Maven</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Skills Section 
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Skills & Expertise</h2>
+                <div class="section-divider"></div>
+            </div>
+            
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span class="skill-name">JavaScript</span>
+                        <span class="skill-percentage">90%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="90" style="background: #f7df1e;"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span class="skill-name">React</span>
+                        <span class="skill-percentage">85%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="85" style="background: #61dafb;"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span class="skill-name">Node.js</span>
+                        <span class="skill-percentage">80%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="80" style="background: #68a063;"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span class="skill-name">Python</span>
+                        <span class="skill-percentage">75%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="75" style="background: #3776ab;"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span class="skill-name">TypeScript</span>
+                        <span class="skill-percentage">70%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="70" style="background: #3178c6;"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span class="skill-name">MongoDB</span>
+                        <span class="skill-percentage">75%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="75" style="background: #47a248;"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span class="skill-name">Git</span>
+                        <span class="skill-percentage">85%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="85" style="background: #f05032;"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span class="skill-name">AWS</span>
+                        <span class="skill-percentage">65%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="65" style="background: #ff9900;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Experience Section -->
+    <!-- Internships Section -->
+<section id="experience" class="experience">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Internships</h2>
+            <div class="section-divider"></div>
+        </div>
+        
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <div class="timeline-header">
+                        <h3 class="timeline-title">Data Science & AI/ML Intern</h3>
+                        <span class="timeline-company">A.N.DIntern</span>
+                    </div>
+                    <div class="timeline-period">
+                        <i class="fas fa-calendar"></i>
+                        <span>2023</span>
+                    </div>
+                    <p class="timeline-description">
+                        Led cloud migration for a regional theater’s ticketing system with 80% manual work reduction. Integrated AI-powered sales forecasting improving revenue by 15% and eliminated $10K+ in operational overhead.
+                    </p>
+                </div>
+            </div>
+           
+
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <div class="timeline-header">
+                        <h3 class="timeline-title">Networking Cloud Virtual Intern</h3>
+                        <span class="timeline-company">AICTE Virtual Internship</span>
+                    </div>
+                    <div class="timeline-period">
+                        <i class="fas fa-calendar"></i>
+                        <span>2024</span>
+                    </div>
+                    <p class="timeline-description">
+                        Deployed automated security notifications for Juniper networks, improving response time by 60% and threat detection by 40%. Prevented 3+ breaches through proactive monitoring and enhanced incident response.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+    <div class="timeline-content">
+        <div class="timeline-header">
+            <h3 class="timeline-title">Cloud Foundations Intern</h3>
+            <span class="timeline-company">AWS Academy / K L University</span>
+        </div>
+        <div class="timeline-period">
+            <i class="fas fa-calendar"></i>
+            <span>2024</span>
+        </div>
+        <p class="timeline-description">
+            Completed cloud fundamentals internship, gaining hands-on experience with AWS services such as EC2, S3, IAM, and Lambda. Developed foundational skills in cloud computing, infrastructure, and deployment best practices.
+        </p>
+    </div>
+</div>
+
+        </div>
+    </div>
+</section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="section-divider"></div>
+                <p class="section-description">
+                    I'm always open to discussing new opportunities and interesting projects
+                </p>
+            </div>
+            
+            <div class="contact-content">
+    <div class="contact-info">
+        <!-- Email -->
+        <div class="contact-item">
+            <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+            </div>
+            <div class="contact-details">
+                <h3>Email</h3>
+                <a href="mailto:2200031952cseh@gmail.com">2200031952cseh@gmail.com</a>
+            </div>
+        </div>
+
+        <!-- LinkedIn -->
+        <div class="contact-item">
+            <div class="contact-icon">
+                <i class="fab fa-linkedin"></i>
+            </div>
+            <div class="contact-details">
+                <h3>LinkedIn</h3>
+                <a href="https://linkedin.com/in/abhiram-sanka-50802828b" target="_blank">Connect with me</a>
+            </div>
+        </div>
+
+        <!-- GitHub -->
+        <div class="contact-item">
+            <div class="contact-icon">
+                <i class="fab fa-github"></i>
+            </div>
+            <div class="contact-details">
+                <h3>GitHub</h3>
+                <a href="https://github.com/Abhiram19052005" target="_blank">View my code</a>
+            </div>
+        </div>
+
+        <!-- Phone -->
+        <div class="contact-item">
+            <div class="contact-icon">
+                <i class="fas fa-phone" href="tel:+918897540026"></i>
+            </div>
+            <div class="contact-details">
+                <h3>Phone</h3>
+                <a href="tel:+918897540026">+91 8897540026</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- CTA Button -->
+    <div class="contact-cta">
+    <a 
+        href="https://wa.me/918897540026?text=Hi%20Abhiram%2C%20I%20found%20your%20portfolio%20and%20would%20like%20to%20connect!" 
+        class="btn btn-primary" 
+        target="_blank"
+    >
+        <i class="fab fa-whatsapp"></i>
+        Send Message
+    </a>
+</div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Abhiram Sanka</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
